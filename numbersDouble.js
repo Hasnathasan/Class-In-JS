@@ -1,6 +1,6 @@
-const double = numbers =>{
+const double = numbers => {
     const doubleArray = [];
-    for(number of numbers){
+    for (number of numbers) {
         const doubleNum = number * 2;
         doubleArray.push(doubleNum)
     }

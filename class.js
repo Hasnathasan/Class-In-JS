@@ -1,16 +1,16 @@
-class Profile{
+class Profile {
     name;
     school;
     location;
-    constructor(name, school, location){
+    constructor(name, school, location) {
         this.name = name;
         this.school = school;
         this.location = location;
     };
-    schoolStarts(time){
+    schoolStarts(time) {
         console.log(`School will be start at ${time}`);
     }
-    hi(){
+    hi() {
         console.log('hi');
     }
 }
@@ -21,14 +21,14 @@ shakib.schoolStarts('9:00');
 
 
 
-class FbProfile{
+class FbProfile {
     profileName;
     nickName;
     constructor(profileName, nickName) {
         this.profileName = profileName;
         this.nickName = nickName;
     }
-    hi(time){
+    hi(time) {
         console.log(`The time is ${time}`);
     }
 }

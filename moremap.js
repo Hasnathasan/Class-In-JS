@@ -9,9 +9,9 @@
 
 
 const string = [
-    { id:1, name: 'Biri', section: 'science' },
-    { id:2, name: 'shiri', section: 'earse' },
-    { id:3, name: 'naria', section: 'comerce' }
+    { id: 1, name: 'Biri', section: 'science' },
+    { id: 2, name: 'shiri', section: 'earse' },
+    { id: 3, name: 'naria', section: 'comerce' }
 ];
 
 const sec = string.map(name => name.section);
