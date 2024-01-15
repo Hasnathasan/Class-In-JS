@@ -1,5 +1,5 @@
 const odd = [1, 3, 5, 7, 9];
-const even = odd.map(num => num + 1 );
+const even = odd.map(num => num + 1);
 console.log(even);
 const array = [33, 50, 79, 78, 90, 101, 30];
 const filtur = array.filter(num => num % 10 == 0);

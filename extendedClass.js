@@ -1,20 +1,20 @@
-class common{
+class common {
     name;
     id;
     location;
-    constructor(name, id, location){
+    constructor(name, id, location) {
         this.name = name;
         this.id = id;
         this.location = location;
     }
-    feedBack(name){
+    feedBack(name) {
         console.log(`Hi ${name}. Thanks for your feedback`);
     }
 };
-class ProgrammingHero extends common{
+class ProgrammingHero extends common {
     ceo = 'Jhankar Mahbub';
     post;
-    constructor(name, id, location, post){
+    constructor(name, id, location, post) {
         super(name, id, location);
         this.post = post;
     }
