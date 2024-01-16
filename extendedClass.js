@@ -19,7 +19,7 @@ class ProgrammingHero extends common {
         this.post = post;
     }
 };
-const biri = new ProgrammingHero('Biri', 0012, 'Dinajpur', 'Ceo');
+const biri = new ProgrammingHero('Biri', 12, 'Dinajpur', 'Ceo');
 console.log(biri);
 biri.feedBack('Biri');
 

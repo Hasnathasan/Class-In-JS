@@ -1,7 +1,7 @@
 const objectHi = {
     name: 'Hasnat Hasan',
     roll: 4,
-    frisends: {
+    friends: {
         f1: 'Namid',
         f2: 'Najim',
         f3: 'Ajim',
@@ -9,4 +9,4 @@ const objectHi = {
     }
 }
 
-console.log(objectHi.frisend?.f1)
+console.log(objectHi.friends?.f1)
